@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "10.16.2",
+  "description": "node web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggsgowtham/nodejs.git"
+  },
+  "author": "Gowtham GGS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggsgowtham/nodejs/issues"
+  },
+  "homepage": "https://github.com/ggsgowtham/nodejs#readme"
+}
