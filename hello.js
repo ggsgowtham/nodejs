@@ -11,7 +11,8 @@
 
 var http = require('http');
 var fs = require('fs'); //file access module
- var url = require('url');
+var url = require('url');
+const PORT = process.env.PORT || 5000;
 
 http.createServer(function (req,res) {
 	var q = url.parse(req.url, true);
@@ -31,6 +32,6 @@ http.createServer(function (req,res) {
 		console.log("...Incoming Request:"+ req.url)
 		return res.end();
 	})
-}).listen(8000);
+}).listen(PORT);
 
-console.log("server listening to port 8000...");
+console.log("server listening to port" + PORT);
